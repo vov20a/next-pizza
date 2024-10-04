@@ -1,0 +1,9 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules":{
+    //отключаем предупреждение : нежелательно использовать img
+    "@next/next/no-img-element":"off",
+    //отключаем предупреждение : нежелательно использовать img
+    "jsx-a11y/alt-text": "off"
+  }
+}
